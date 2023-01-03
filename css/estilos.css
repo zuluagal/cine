@@ -1,0 +1,165 @@
+:root {
+  --bg: #000000;
+  --letras:  #ffffff;
+}
+
+*{
+margin: 0;
+}
+
+.w {
+min-height: calc(100% - 8rem);
+}
+
+html, body{
+  font-family: 'Nunito', sans-serif;
+  background-color: var(--bg);
+}
+
+h2{
+  text-align: center;
+  color: var(--letras);
+}
+
+header{
+font-weight: bold;
+align-items: center;
+}
+
+.t-index{
+margin: 0 auto;
+}
+
+.div-parrafo{
+text-align: justify;
+font-size: 20px;
+}
+
+.div-index{
+text-align: center;
+padding-top: 40px;
+}
+
+header img{
+  width: 80px;
+}
+
+.icono-plus{
+  font-size: 24px;
+  border: 1px solid #ffffff;
+  padding: 25px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-full{
+  border: none;
+}
+
+
+label{
+  color: var(--letras);
+}
+
+nav div div{
+  justify-content: flex-end;
+}
+
+.navbar-brand{
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand p{
+  margin: 0;
+  padding: 0;
+}
+
+p.msj-bievenida{
+  color: #ffffff;
+}
+
+p.msj-bievenida b a{
+  color: #ffffff;
+}
+
+p.msj-bievenida b a:hover{
+  color: #FF0000;
+}
+
+/* ----------------pelicula-------------*/
+.img-portada-pelicula{
+  height: 100px;
+  width: 100px;
+}
+
+.table{
+  vertical-align: middle;
+  text-align: center;
+}
+
+thead{
+  color: #ffffff;
+}
+
+tbody{
+  color: #f7f7f7;
+}
+
+tbody, td, tfoot, th, thead, tr {
+    border: 1px solid #ffffff;
+    vertical-align: middle;
+}
+
+/* ----------------==centrar login===-------------*/
+
+  .abs-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* ----------------==DASHBOARD===-------------*/
+.msj-bienvenida{
+  font-size: 20px;
+  color: #ffffff;
+}
+
+ul.ul-menu-op {
+    margin: 0;
+    padding: 0;
+}
+
+.ul-menu-op li{
+  list-style: none;
+}
+
+.ul-menu-op li a{
+  margin: 10px;
+  color: #ffffff;
+}
+
+
+
+
+
+/* ----------------sala-------------*/
+.monto-minimo {
+    font-size: 13px;
+    color: #f1f1f1;
+}
+/* ----------------=====-------------*/
+
+
+/* ----------------footer-------------*/
+/*footer{
+  background-color: #31384A;
+  color: #ffffff;
+  font-style: italic;
+  padding: 30px;
+  text-align: center;
+  width: 100%;
+  height: 8rem;
+}*/
